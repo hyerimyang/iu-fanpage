@@ -1,71 +1,50 @@
-# Getting Started with Create React App
+# 📌프로젝트명 : IU Geek Out :: Best Video (2021)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 📎 url : 
 
-## Available Scripts
+![](https://images.velog.io/images/hyerimiya/post/e64abfdf-0c85-472d-a8a3-d6ac0b6174fd/1.png)
 
-In the project directory, you can run:
+![](https://images.velog.io/images/hyerimiya/post/aec9a9f9-0f3e-4134-97ca-b17c445e61ee/2.png)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## ✏ 작품소개
+기존에 있던 'Best Horror Scenes' 사이트를 조금 바꿔서 만든  
+평소 좋아하는 연예인 아이유를 덕질할 때 많이 보는 영상들을 모아둔 사이트입니다.  
+나만의 취향을 그대로 노출한다는게 마음에 걸려 로그인 페이지를 별도로 만들었습니다.  
+드라마, 예능, 연예인들에 관심이 많아 덕질을 많이 하는 편이라 연예인 팬페이지나 방송 관련 된 사이트나 앱을 꼭 만들어보고 싶었는데  
+React를 사용할 줄 알게 되면서 간단한 웹페이지를 만들어보았습니다.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🖱 실행 방법
+* 로그인 페이지
+  - email : 기존 이메일 방식으로 입력하면 된다 ex) email@sample.com
+  - password : 영문/숫자 포함, 8~15자를 입력하면 된다
+  - 올바르게 입력하지 않으면 로그인페이지 그대로, 알맞게 입력했다면 메인페이지로 넘어간다
+* 메인 페이지
+  - 로그인페이지에서 입력했던 이메일이 저장되어 메인페이지에서 표시된다
 
-### `npm test`
+## 🖱 작업 툴
+**React** (mobX, Formik, Yup), CSS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📎 License
+[BEST HORROR SCENES](https://besthorrorscenes.com/)
 
-### `npm run build`
+## ✏ 프로젝트를 통해 배운 점
+React로 프로젝트를 하나 완성했다는 것만으로도 뿌듯했는데  
+두 페이지를 연결시키면서 더 알게되는 것이 많았고 좋았습니다.
+다만, 새로고침을 하면 다시 로그인페이지로 가게되는데 그 부분을 아직 해결하지 못해서 아쉽지만
+이 사이트의 사용은 개인적인 것이기 때문에 더 공부해서 퀄리티 높은 프로젝트를 만들 수 있도록 계속해서 공부하려고합니다.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### mobX
+state를 전역적으로 쉽게 관리할 수 있게 해주는 라이브러리 (Redux와 유사)  
+@observable : '관찰받고 있는' 상태로 이해하면 됨(상태 관찰 대상)  
+@action : 상태에 어떻게 변화를 일으킬 것인지 정의하는 부분(Redux의 action과 같은 개념) 
+@inject : @inject('스토어명')을 이용해서, 해당 스토어의 observable 값과 action 함수를 가져올 수 있음 (가져온 스토어들은 해당 컴포넌트의 props로 내려받아서 사용)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Formik
+React에서 폼의 복잡성과 장황함을 제거하고, 
+Yup 라이브러리를 함께 사용해서 form 양식을 핸들링 하는 방법이 있음
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# iu-fanpage
+### Yup 
+Yup은 Form validation 을 위한 라이브러리 
