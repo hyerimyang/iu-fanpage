@@ -1,7 +1,5 @@
 # 📌 IU Geek Out :: Best Video (2021)
 
-# 📎 url : 
-
 ![](https://images.velog.io/images/hyerimiya/post/e64abfdf-0c85-472d-a8a3-d6ac0b6174fd/1.png)
 
 ![](https://images.velog.io/images/hyerimiya/post/aec9a9f9-0f3e-4134-97ca-b17c445e61ee/2.png)
